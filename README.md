@@ -10,12 +10,11 @@ PhotoScroll works by utilizing JavaScript to manipulate the transformation and o
 
 The code assumes the presence of an HTML element with the ID "image-track" that contains a series of images. These images represent the gallery items that will be scrolled.
 
-````html
+```html
 <div id="image-track">
   <!-- Your gallery images go here -->
 </div>
 ```
-````
 
 ## JavaScript Functions
 
