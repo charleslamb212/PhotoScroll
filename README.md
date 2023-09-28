@@ -10,23 +10,29 @@ PhotoScroll works by utilizing JavaScript to manipulate the transformation and o
 
 The code assumes the presence of an HTML element with the ID "image-track" that contains a series of images. These images represent the gallery items that will be scrolled.
 
-```html
+````html
 <div id="image-track">
   <!-- Your gallery images go here -->
 </div>
-JavaScript Functions
+```
+````
+
+##JavaScript Functions
 The JavaScript code includes three main event handlers:
 
-handleOnDown(e): This function is triggered when the user clicks (mousedown) or touches (touchstart) the mouse. It records the initial mouse position.
+###handleOnDown(e):
+This function is triggered when the user clicks (mousedown) or touches (touchstart) the mouse. It records the initial mouse position.
 
-handleOnUp(): This function is called when the user releases the mouse button (mouseup) or touch (touchend). It resets the mouse position and stores the previous scroll percentage.
+###handleOnUp():
+This function is called when the user releases the mouse button (mouseup) or touch (touchend). It resets the mouse position and stores the previous scroll percentage.
 
-handleOnMove(e): This function is responsible for calculating the scroll percentage based on mouse movement and applying smooth animations to both the "image-track" and individual images.
+###handleOnMove(e):
+This function is responsible for calculating the scroll percentage based on mouse movement and applying smooth animations to both the "image-track" and individual images.
 
-Touch Event Handling
+##Touch Event Handling
 The code also includes event handlers for touch events to ensure compatibility with touch-enabled devices. These handlers mirror the mouse events and allow users to scroll through the gallery using touch gestures.
 
-Usage
+##Usage
 To use PhotoScroll in your project:
 
 Include the HTML structure with the "image-track" element containing your gallery images.
@@ -47,7 +53,3 @@ vbnet
 Copy code
 
 You can copy and paste this Markdown into your repository's README.md file. Make sure to customize it further if needed.
-
-
-
-
