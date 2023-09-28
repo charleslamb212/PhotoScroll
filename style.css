@@ -17,13 +17,8 @@ body {
 }
 
 #image-track > .image {
-  width: auto;
-  height: 100%;
+  width: 100px;
+  height: 80px;
   object-fit: cover;
   object-position: 100% center;
-}
-
-.image {
-  height: 100px;
-  width: 80px;
 }
